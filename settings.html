@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Account Settings</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500"
+    />
+    <link rel="stylesheet" href="./settings.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="account-settings">
+        <div class="sidebar">
+          <div class="header">
+            <div class="logo-and-name">
+              <img class="ticket-system-logo" src="./assets/s+.png" />
+              <p class="app-name">Reclami</p>
+            </div>
+            <div class="sections">
+              <div class="section-overview">
+                <img class="icon-overview" src="./assets/squaresfour.png" />
+                <p class="overview-text">Overview</p>
+              </div>
+              <div class="section-tickets">
+                <img
+                  class="icon-tickets"
+                  src="./assets/phosphor-icons-ticket.png"
+                />
+                <p class="tickets-text">Tickets</p>
+              </div>
+              <div class="section-teams">
+                <img class="icon-teams" src="./assets/users.png" />
+                <p class="teams-text">Teams</p>
+              </div>
+              <div class="section-chats">
+                <img class="icon-chats" src="./assets/chatdrop.png" />
+                <p class="chats-text">Chats</p>
+              </div>
+            </div>
+          </div>
+          <div class="user-profile">
+            <img class="user-avatar" src="./assets/ellipse-16-bg.png" />
+            <div class="user-details">
+              <div class="name-and-handle">
+                <p class="user-name">Lamjed Ben slama</p>
+                <p class="user-handle">@shakshi123</p>
+              </div>
+            </div>
+            <img class="logout-icon" src="./assets/logout.png" />
+          </div>
+        </div>
+        <div class="dashboard">
+          <p class="settings-heading">Settings</p>
+          <div class="menu">
+            <div class="menu-item">
+              <p class="item-personal-details">Personal Details</p>
+              <p class="item-subscription">Subscription</p>
+            </div>
+            <div class="menu-item">
+              <div class="account-item">Account</div>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <div class="card-header">
+              <div class="group">
+                <div class="group-inner">
+                  <img class="avatar" src="./assets/BY.png" />
+                </div>
+                <div class="oval"></div>
+                <img class="group-icon" src="./assets/group.png" />
+              </div>
+              <form>
+                <div>
+                  <label for="website"></label>
+                  <input
+                    type="text"
+                    id="website"
+                    name="website"
+                    class="search-bar"
+                    placeholder="Enter website"
+                  />
+                </div>
+                <div>
+                  <label for="color"></label>
+                  <input
+                    type="text"
+                    id="color"
+                    name="color"
+                    class="search-bar"
+                    placeholder="Enter base color"
+                  />
+                </div>
+                <div class="update-account">
+                  <button type="submit">Update</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="team">
+          <div class="team-heading">
+            <p class="detail-heading">Detail</p>
+            <img class="edit-icon" src="./assets/edit.png" />
+          </div>
+          <img class="team-line" src="./assets/team-line.png" />
+          <div class="team-profile">
+            <div class="avatar-container"></div>
+            <div class="detail-container">
+              <div class="user-name">
+                <p class="name-text">Lamjed Ben slama</p>
+                <div class="tag">Owner</div>
+              </div>
+              <p class="email">lamjed.benslama@gmail.com</p>
+            </div>
+          </div>
+          <div class="company">
+            <p class="company-name">Company</p>
+            <div class="company-info">
+              <div class="logo-container">
+                <img class="company-logo" src="./assets/BY_Squarred.png" />
+              </div>
+              <div class="name-container">
+                <p class="company-name-text">Reclami</p>
+                <p class="company-industry">SaaS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
